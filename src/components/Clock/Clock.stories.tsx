@@ -7,9 +7,13 @@ export default {
 }
 
 
-export const Example1 = () => {
+export const AnalogExample1 = () => {
 
-    return <Clock/>
+    return <Clock mode={"analog"}/>
+}
+export const DigitalExample1 = () => {
+
+    return <Clock mode={"digital"}/>
 }
 
 
